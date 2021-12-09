@@ -49,7 +49,6 @@ export interface ChannelDetailsProps {
     channelGroupsEnabled: boolean;
     isDisabled?: boolean;
     actions: ChannelDetailsActions;
-    license: ClientLicense;
 }
 
 interface ChannelDetailsState {
