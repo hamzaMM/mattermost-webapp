@@ -14,8 +14,6 @@ import {ChannelModerationRoles} from 'mattermost-redux/types/roles';
 import {SyncablePatch, Group, SyncableType} from 'mattermost-redux/types/groups';
 import {Channel, ChannelModeration as ChannelPermissions, ChannelModerationPatch} from 'mattermost-redux/types/channels';
 import {Team} from 'mattermost-redux/types/teams';
-import {ClientLicense} from 'mattermost-redux/types/config';
-
 import {ServerError} from 'mattermost-redux/types/errors';
 
 import ConfirmModal from 'components/confirm_modal';
